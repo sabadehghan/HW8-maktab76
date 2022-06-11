@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+        <div class="container">
+                <div class="login-box">
+                  <section class="login">
+                    <div class="header">
+                      <h2>Login to Colorlib</h2>
+                      <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam,
+                        similique?
+                      </p>
+                    </div>
+                    <div class="user-input">
+                      <label for="username" >Username</label>
+                      <input
+                        type="email"
+                        id="username"
+                        placeholder="your-email@gmail.com"
+                        name="username"
+                        required
+                      />
+                    </div>
+                    <div class="pass-input">
+                      <label for="password">Password</label>
+                      <input
+                        type="password"
+                        id="password"
+                        placeholder="Your Password"
+                        name="password"
+                        required
+                      />
+                    </div>
+                    <div class="footer">
+                      <input  type="checkbox" name="remember" checked="checked" id="checkbox" />
+                      <label for="remember">Remember me</label>
+                      <a href="#">Forgot password</a>
+                    <button onclick="setUserInfo()" type="button" id="login">Log in</button>
+                    </div>
+
+                  </section>
+                </div>
+        <!-- <button onclick="setUserInfo()">click for set</button> -->
+        <!-- <button onclick="getUserInfo()">show content</button> -->
+        <!-- <h2 id="Result"></h2> -->
+        <script src="./script.js"></script> 
+</body>
+</html>
+
