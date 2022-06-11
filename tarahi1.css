@@ -1,0 +1,65 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+section.login {
+  position: absolute;
+  /* top: 150px; */
+  /* left: 290px; */
+  padding: 200px 0px 0px 200px;
+  background-color: rgb(254, 246, 236);
+  width: 600px;
+  height: 550px;
+}
+.header p {
+  width: 280px;
+  color: gray;
+}
+.user-input,
+.pass-input {
+  width: 200px;
+  padding-top: 20px;
+}
+.user-input input,
+.pass-input input {
+  width: 300px;
+  padding: 15px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 2px;
+}
+#checkbox{
+  accent-color: coral;
+}
+.footer {
+  width: 300px;
+  margin-top: 8px;
+}
+button {
+  margin-top: 30px;
+}
+button:hover{
+  opacity: 0.5;
+}
+a {
+  font-size: small;
+  /* text-decoration: none; */
+  color: gray;
+  margin-left: 68px;
+}
+.footer button {
+  width: 330px;
+  background-color: coral;
+  border-radius: 2px;
+  color: #fff;
+  border: none;
+  padding: 15px;
+}
+img{
+  position: absolute;
+  right: 0px;
+  width: 750px;
+  height: 750px;
+  background-size: cover;
+}
+
